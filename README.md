@@ -20,6 +20,9 @@
     <h2>Product List</h2>
     <ul id="product-list">
         <!-- Product list will be displayed here -->
+        <li>Product 1 - $10.99<button type="button" onclick="editProduct(0)" class="edit">Edit</button><button type="button" onclick="deleteProduct(0)" class="delete">Delete</button></li>
+        <li>Product 2 - $19.99<button type="button" onclick="editProduct(1)" class="edit">Edit</button><button type="button" onclick="deleteProduct(1)" class="delete">Delete</button></li>
+        <li>Product 3 - $5.49<button type="button" onclick="editProduct(2)" class="edit">Edit</button><button type="button" onclick="deleteProduct(2)" class="delete">Delete</button></li>
     </ul>
 
     <h2>Update Product</h2>
